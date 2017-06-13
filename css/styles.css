@@ -1,0 +1,145 @@
+/* Jeffrey Alan Lockwood Author Site
+CSS written by Gretchen Heuberger
+(www.gretchenheuberger.com) */
+
+/* GLOBAL */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(124, 130, 100, 0.2);
+  background-image: url("../images/bg_tile.jpg");
+  font-family: 'PT Sans', sans-serif;
+  font-size: 100%; /* 16px */
+  color: #605e5e;
+}
+
+.wrapper {
+  max-width: 980px;
+  background-color: #fff;
+  margin: auto;
+}
+
+h1 {
+  color: #7c8264;
+  font-size: 3.375rem; /* 54px */
+}
+
+h2 {
+  font-family: 'Enriqueta', serif;
+  font-size: 1.875rem; /* 30px */
+}
+
+header h1 {
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+}
+
+.site-nav {
+  background-color: #7c8264;
+  padding: 1rem;
+  color: #fff;
+  list-style: none;
+  max-width: 980px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+.site-nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav ul {
+  font-family: 'Enriqueta', serif;
+  list-style-type: none;
+}
+
+.site-nav ul li {
+  display: inline;
+  margin: 0 0 0 2rem;
+}
+
+.site-nav ul li:first-child {
+  margin-left: 0rem;
+}
+
+.site-nav ul a:hover {
+  color: #e5e6e0;
+}
+
+.home-main section {
+  max-width: 980px;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.home-main section div {
+  padding: 1rem;
+  display: inline-block;
+  max-width: 452px;
+}
+
+.home-main section div p {
+  padding-top: 1rem;
+}
+
+.home-main button {
+  padding: 1rem 5rem 1rem 2rem;
+  border: none;
+  color: #fff;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  background-color: #ab7460;
+}
+
+.section-1 {
+  background-color: rgba(124, 130, 100, 0.2);
+  background-image: url("../images/bg_poisoned.jpg");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.section-1 img {
+  display: inline-block;
+  border: 0.3125rem /* 05px */ solid #fff;
+}
+
+.section-1 div {
+  background-color: rgba(255, 255, 255, 0.7);
+  max-width: 368px;
+}
+
+.section-1 button {
+  background-color: #ed363b;
+}
+
+.section-2 {
+  background-color: rgba(124, 130, 100, 0.2);
+
+}
+
+.section-3 {
+  background-color: rgba(124, 130, 100, 0.2);
+  background-image: url("../images/bg_carbon.png");
+}
+
+.section-3 div {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.section-4 {
+  background-color: rgba(124, 130, 100, 0.2);
+
+}
